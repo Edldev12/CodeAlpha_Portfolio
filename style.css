@@ -384,14 +384,43 @@ header {
 /* =====================================================
    EDUCATION
 ===================================================== */
+.certificate-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
 
 .education-card,
-.certification-card {
-    max-width: 700px;
-    margin: auto;
-    padding: 30px;
+.certificate-card {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
     background: var(--card-bg);
     border-radius: 15px;
+    padding: 30px;
+    margin: auto;
+}
+
+.certificate-card img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+.certificate-btn {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 20px;
+        border-radius: 25px;
+        background: #2563eb;
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+}
+
+.certificate-btn:hover {
+        background: #38bdf8;
+        transform: scale(1.05);
 }
 
 .education-card h3 {
@@ -421,6 +450,8 @@ header {
 #contact a:hover {
     color: white;
 }
+
+
 
 
 /* =====================================================
@@ -469,6 +500,12 @@ footer h2 {
 
     .stats {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .certificate-card img {
+        width: 200px;
+    }
+    .certificate-container {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -610,6 +647,12 @@ footer h2 {
         grid-template-columns: repeat(2, 1fr);
         padding: 20px 10px;
     }
+    .certificate-card img {
+        width: 200px;
+    }
+    .certificate-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 
@@ -694,5 +737,12 @@ footer h2 {
 
     footer {
         padding: 30px 15px;
+    }
+
+    .certificate-card img {
+        width: 200px;
+    }
+    .certificate-container {
+        grid-template-columns: 1fr;
     }
 }
