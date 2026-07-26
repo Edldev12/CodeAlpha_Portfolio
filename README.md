@@ -24,7 +24,7 @@ Here's a preview of my personal portfolio website.
 
 </div>
 
-🔗 **Live Portfolio:** https://edldev12.github.io/Edldev12/
+🔗 **Live Portfolio:** https://edldev12.github.io/CodeAlpha_Portfolio/
 
 ---
 
@@ -110,7 +110,7 @@ A Python banking application demonstrating software engineering concepts.
 
 ## 📫 Connect With Me
 
-- 🌐 Portfolio: https://YOUR-PORTFOLIO-LINK
+- 🌐 Portfolio: https://edldev12.github.io/CodeAlpha_Portfolio/
 - 💼 LinkedIn: https://www.linkedin.com/in/edlawit-tsegaye-teshome-a94474421/
 - 🐙 GitHub: https://github.com/Edldev12
 
