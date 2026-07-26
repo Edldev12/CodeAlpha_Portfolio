@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./images/edlawit image.jpg" alt="Edlawit Tsegaye" width="160"/>
+<img src="./images/edlawit imag.jpg" alt="Edlawit Tsegaye" width="160"/>
 
 # Hi, I'm Edlawit Tsegaye 👋
 
